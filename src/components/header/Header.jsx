@@ -6,7 +6,7 @@ import MobileNavbar from "../navbar/MobileNavbar.jsx";
 
 function Header() {
   return (
-    <header className="flex flex-col p-4">
+    <header className="flex flex-col gap-4 bg-gradient-to-b from-[#E9F8FF] to-white p-4">
       <div className="hidden justify-around p-4 md:flex">
         <img src="https://placehold.co/100x30/black/white" alt="Page Logo" />
 
@@ -20,12 +20,12 @@ function Header() {
               type="text"
               placeholder="Search here"
               id="search"
-              className="outline-none"
+              className="bg-transparent outline-none"
             />
           </div>
 
           {/*Contact Info*/}
-          <div className="flex items-center gap-4 px-4">
+          <div className="hidden items-center gap-4 px-4 lg:flex">
             <a
               href="mailto:example@mail.com"
               target="_blank"

@@ -6,7 +6,7 @@ function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="self-end md:hidden">
+    <div className="self-end lg:hidden">
       <button onClick={() => setIsOpen(!isOpen)}>
         <RxHamburgerMenu />
       </button>

@@ -4,7 +4,7 @@ import { navMenus } from "./navMenus.js";
 
 function Navbar() {
   return (
-    <nav className="hidden items-center justify-around p-4 md:flex">
+    <nav className="m-auto hidden w-3/4 items-center justify-between rounded-xl bg-white p-4 font-semibold shadow-[0px_-15px_20px_#ccc_inset] lg:flex">
       <div className="flex items-center gap-8">
         {navMenus.map((menu, index) => (
           <a key={index} href={menu.path}>

@@ -3,13 +3,13 @@ import HeroSection from "./sections/hero-section/HeroSection.jsx";
 import FeaturesContainer from "./sections/features/FeaturesContainer.jsx";
 
 const Home = () => {
-    return (
-        <main>
-            <Header/>
-            <HeroSection/>
-            <FeaturesContainer/>
-        </main>
-    )
-}
+  return (
+    <main>
+      <Header />
+      <HeroSection />
+      <FeaturesContainer />
+    </main>
+  );
+};
 
-export default Home
+export default Home;
